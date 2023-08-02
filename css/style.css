@@ -318,4 +318,39 @@ a {
     color: #00a3ff;
 }
 
+.iframe-cpa {
+    margin: 50px 0;
+}
+
 /* portfolio section end */
+
+/* contact-wrapper start */
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 30px;
+    width: 100%;
+}
+
+.SendMessage {
+    width: 50%;
+}
+
+.GetinTouch {
+    width: 50%;
+}
+
+.margin-bottom {
+    margin-bottom: 15px;
+}
+
+.input-width {
+    width: 100%;
+}
+
+.input-padding {
+    padding: 10px 10px;
+}
+
+/* contact-wrapper end */
