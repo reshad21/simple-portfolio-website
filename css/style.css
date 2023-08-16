@@ -325,12 +325,17 @@ a {
 /* portfolio section end */
 
 /* contact-wrapper start */
+.contact {
+    padding: 100px 0px 80px 0px;
+}
+
 .contact-wrapper {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     padding: 30px;
     width: 100%;
+    background-color: #fff;
 }
 
 .SendMessage {
@@ -353,9 +358,20 @@ a {
     padding: 10px 10px;
 }
 
-/* .form-input-filed input[type=text] {
-    width: 100%;
-} */
+.form-input-filed input[type=submit] {
+    background-color: #0062d3;
+    padding: 19px 38px;
+    color: #fff;
+    border-radius: 40px;
+    border: 0px solid #0062d3;
+    font-size: 18px;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
 .form-input-filed textarea {
     width: 100%;
     padding: 10px;
@@ -438,13 +454,31 @@ a {
 
 
 .contact-me-bg {
-    background-image: url(../images/overlay-bg.jpg);
+    background-image: linear-gradient(rgb(51, 130, 241), rgb(76 156 242 / 54%)), url(../images/overlay-bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
 
 }
 
+
+/* ------------ footer section start ----------- */
+.footer-bg {
+    background-color: #0062d3;
+}
+
+.footer-wrapper {
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+}
+
+.devfolio {
+    font-weight: bold;
+}
 
 
 
