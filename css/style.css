@@ -28,11 +28,14 @@ a {
 }
 
 .navber {
+    /* position: relative; */
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 20px 10px;
     color: #ffffff;
 }
+
+
 
 .navber_menu {}
 
@@ -51,6 +54,57 @@ a {
 
 .navber_menu ul li a:hover {
     color: blueviolet;
+}
+
+.responsive-navber_menu {
+    display: none;
+    color: #ffffff;
+    background-color: #0062d3;
+    padding: 20px;
+}
+
+.responsive-navber_menu ul {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.responsive-navber_menu ul li {
+    border: 2px solid white;
+}
+
+.responsive-navber_menu ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.toggle-bar {
+    display: none;
+    position: relative;
+}
+
+.toggle-bar a {
+    color: #fff;
+}
+
+.rseponsive-navber {
+    position: absolute;
+    top: 60px;
+    right: 10000px;
+    width: 100%;
+    z-index: 99999999;
+
+}
+
+.toggle-bar a:hover .rseponsive-navber {
+    right: 0px;
+}
+
+.toggle-bar a:hover {
+    color: #00fff2;
 }
 
 /* ===========Hero section=========== */
@@ -487,6 +541,21 @@ a {
 }
 
 @media (max-width: 991px) {
+    .toggle-bar {
+        display: inherit;
+    }
+
+    .navber_menu {
+        display: none;
+    }
+
+    .responsive-navber_menu {
+        display: inherit;
+        color: #ffffff;
+        background-color: #0062d3;
+        padding: 20px;
+    }
+
     .aboutme_section {
         background-color: white;
         padding: 80px 70px;
@@ -514,6 +583,21 @@ a {
 }
 
 @media (max-width: 768px) {
+    .toggle-bar {
+        display: inherit;
+    }
+
+    .navber_menu {
+        display: none;
+    }
+
+    .responsive-navber_menu {
+        display: inherit;
+        color: #ffffff;
+        background-color: #0062d3;
+        padding: 20px;
+    }
+
     .aboutme_section {
         background-color: white;
         padding: 80px 70px;
@@ -551,6 +635,21 @@ a {
 }
 
 @media (max-width: 576px) {
+    .toggle-bar {
+        display: inherit;
+    }
+
+    .navber_menu {
+        display: none;
+    }
+
+    .responsive-navber_menu {
+        display: inherit;
+        color: #ffffff;
+        background-color: #0062d3;
+        padding: 20px;
+    }
+
     .aboutme_section {
         background-color: white;
         padding: 80px 70px;
@@ -588,6 +687,21 @@ a {
 }
 
 @media (max-width: 445px) {
+    .toggle-bar {
+        display: inherit;
+    }
+
+    .navber_menu {
+        display: none;
+    }
+
+    .responsive-navber_menu {
+        display: inherit;
+        color: #ffffff;
+        background-color: #0062d3;
+        padding: 20px;
+    }
+
     .aboutme_section {
         background-color: white;
         padding: 80px 70px;
